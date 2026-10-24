@@ -1,0 +1,99 @@
+{
+  "context": {
+    "dataset": "Amazon Reviews'23",
+    "collector": "McAuley Lab",
+    "data_design": "observational; no randomized allocation or controlled intervention",
+    "collection_method": "Authors describe sampling user IDs from public Amazon pages and collecting associated review pages; this does not establish random sampling of buyers/products.",
+    "observation_units": {
+      "review": "One collected review record; not one guaranteed distinct purchase",
+      "meta": "One collected product metadata record; uniqueness is audited, not assumed"
+    },
+    "limits": [
+      "Review writing and helpful voting are self-selected user activities.",
+      "Item review histories may be incomplete, including recently posted reviews before cutoff.",
+      "Helpful counts have unequal exposure and accumulation time; impressions/vote event times are absent.",
+      "Metadata is a crawl-time snapshot; price and rating aggregates are not historical versions.",
+      "File-category membership and metadata main_category are distinct fields.",
+      "Collected review counts do not measure all purchases, returns, defects, or causal effects."
+    ],
+    "global_documented_review_period": "May 1996 to September 2023; local ranges are measured separately",
+    "sources": [
+      "https://amazon-reviews-2023.github.io/",
+      "https://arxiv.org/html/2403.03952v2#A2",
+      "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023"
+    ],
+    "metadata_time_range": "Not derivable from these files without a documented timestamp/version history"
+  },
+  "audit_as_of_utc": "2026-10-21T08:31:29.714135+00:00",
+  "files": [
+    {
+      "dataset": "All_Beauty",
+      "local_path": "/Users/parsaanvari/Downloads/DataAnalysis/All_Beauty.jsonl",
+      "bytes_on_disk": 326611506,
+      "sha256_stored_bytes": "36ca7c48440a8247b2dca0174d095238422b506a8a80c114dca722b7715f1c94",
+      "format": "JSONL",
+      "encoding": "UTF-8; optional BOM on first line",
+      "filesystem_mtime_utc_not_download_date": "2026-10-16T15:10:46.495045+00:00",
+      "audit_started_utc": "2026-10-21T08:31:29.736641+00:00",
+      "official_dataset_page": "https://amazon-reviews-2023.github.io/",
+      "published_candidate_file_url": "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/resolve/main/raw/review_categories/All_Beauty.jsonl",
+      "actual_download_url": null,
+      "actual_downloaded_at_utc": null,
+      "source_revision": null,
+      "source_url_note": "Published URL is a reference; local origin/remote equality has not been independently verified.",
+      "local_file_unchanged_during_audit": true
+    },
+    {
+      "dataset": "meta_All_Beauty",
+      "local_path": "/Users/parsaanvari/Downloads/DataAnalysis/meta_All_Beauty.jsonl",
+      "bytes_on_disk": 212990142,
+      "sha256_stored_bytes": "1cfbdf6d2ccf9c3ac52a4508b15f31f8f340508a245b65c3e3b5f461e06e97ef",
+      "format": "JSONL",
+      "encoding": "UTF-8; optional BOM on first line",
+      "filesystem_mtime_utc_not_download_date": "2026-10-16T15:13:57.113842+00:00",
+      "audit_started_utc": "2026-10-21T08:32:01.246431+00:00",
+      "official_dataset_page": "https://amazon-reviews-2023.github.io/",
+      "published_candidate_file_url": "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/resolve/main/raw/meta_categories/meta_All_Beauty.jsonl",
+      "actual_download_url": null,
+      "actual_downloaded_at_utc": null,
+      "source_revision": null,
+      "source_url_note": "Published URL is a reference; local origin/remote equality has not been independently verified.",
+      "local_file_unchanged_during_audit": true
+    },
+    {
+      "dataset": "Appliances",
+      "local_path": "/Users/parsaanvari/Downloads/DataAnalysis/Appliances.jsonl",
+      "bytes_on_disk": 929451412,
+      "sha256_stored_bytes": "d9dd03aa9be0c8e6fea66d8ce99a7e5b359e272d6323186c1aa80f6d36af1dab",
+      "format": "JSONL",
+      "encoding": "UTF-8; optional BOM on first line",
+      "filesystem_mtime_utc_not_download_date": "2026-10-17T10:45:11.212517+00:00",
+      "audit_started_utc": "2026-10-21T08:32:05.939218+00:00",
+      "official_dataset_page": "https://amazon-reviews-2023.github.io/",
+      "published_candidate_file_url": "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/resolve/main/raw/review_categories/Appliances.jsonl",
+      "actual_download_url": null,
+      "actual_downloaded_at_utc": null,
+      "source_revision": null,
+      "source_url_note": "Published URL is a reference; local origin/remote equality has not been independently verified.",
+      "local_file_unchanged_during_audit": true
+    },
+    {
+      "dataset": "meta_Appliances",
+      "local_path": "/Users/parsaanvari/Downloads/DataAnalysis/meta_Appliances.jsonl",
+      "bytes_on_disk": 285298475,
+      "sha256_stored_bytes": "b25ae892af7bc452c4a54b7e4fee52f4c3e9adf058768ca3cb07ecb8d328b41e",
+      "format": "JSONL",
+      "encoding": "UTF-8; optional BOM on first line",
+      "filesystem_mtime_utc_not_download_date": "2026-10-19T20:09:11.999421+00:00",
+      "audit_started_utc": "2026-10-21T08:33:41.452607+00:00",
+      "official_dataset_page": "https://amazon-reviews-2023.github.io/",
+      "published_candidate_file_url": "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/resolve/main/raw/meta_categories/meta_Appliances.jsonl",
+      "actual_download_url": null,
+      "actual_downloaded_at_utc": null,
+      "source_revision": null,
+      "source_url_note": "Published URL is a reference; local origin/remote equality has not been independently verified.",
+      "local_file_unchanged_during_audit": true
+    }
+  ],
+  "file_issues": []
+}
