@@ -1,0 +1,8 @@
+graph LR
+    classDef default fill:#1e293b,stroke:#334155,stroke-width:2px,color:#f8fafc,font-family:sans-serif,rx:8px,ry:8px;
+    classDef edgeLabel fill:#0f172a,stroke:#334155,stroke-width:1px,color:#cbd5e1,font-size:12px,rx:4px,ry:4px;
+
+    %% Nodes
+    A["All_Beauty Reviews"] -->|"Many-to-One: parent_asin"| B["All_Beauty Metadata"]
+    A -->|"Shared Users: 58,120"| C["Appliances Reviews"]
+    C -->|"Many-to-One: parent_asin"| D["Appliances Metadata"]
