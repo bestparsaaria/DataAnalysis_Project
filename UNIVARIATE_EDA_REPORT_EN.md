@@ -157,7 +157,8 @@ The valid population contains 112,565 parent product observations; 0 are exclude
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 112,565 | 6.232 | 2.000 | 25.190 | 1.000 | 4.000 | 3.000 | 73.000 | 1,962.000 | 27.312 | 1,288.766 |
 
-![Observed reviews per parent product](![Reviews Per Parent](./univariate/figures/All_Beauty__reviews_per_parent.png)
+![Reviews Per Parent](./reports/phase1/univariate/figures/All_Beauty__reviews_per_parent.png)
+
 
 #### reviews_per_user: Observed reviews per reviewer
 
